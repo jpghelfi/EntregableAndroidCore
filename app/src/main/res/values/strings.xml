@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EntregableAndroidCore</string>
+    <string name="recetas">Recetas</string>
+    <string name="about_us">About Us</string>
+    <string name="bienvenido">Weolcomeeeee</string>
 </resources>

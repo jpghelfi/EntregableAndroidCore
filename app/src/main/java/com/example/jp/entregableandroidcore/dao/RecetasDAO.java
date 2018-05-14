@@ -17,31 +17,22 @@ public class RecetasDAO {
 
         List<Receta> listRecetas = new ArrayList<Receta>();
 
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-        listRecetas.add(new Receta( "vasdasdasdjaskdjkalsv", 1, "Carne, Sal", "no se"));
-
+        listRecetas.add(new Receta( "lomo strogonoff", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Pastel de Carne", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Spaghetti caprese", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "lomo strogonoff", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Pastel de Carne", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Spaghetti caprese", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "lomo strogonoff", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Pastel de Carne", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Spaghetti caprese", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "lomo strogonoff", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Pastel de Carne", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Spaghetti caprese", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "lomo strogonoff", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Pastel de Carne", 1, "Carne, Sal", "no se"));
+        listRecetas.add(new Receta( "Spaghetti caprese", 1, "Carne, Sal", "no se"));
+        
 
 
         return listRecetas;

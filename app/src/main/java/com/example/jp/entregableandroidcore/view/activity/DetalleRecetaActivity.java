@@ -24,7 +24,5 @@ public class DetalleRecetaActivity extends AppCompatActivity {
         DetalleRecetaFragment detalleFragment = new DetalleRecetaFragment();
         detalleFragment.setArguments(bundle);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, detalleFragment).commit();
-
-
     }
 }

@@ -1,6 +1,7 @@
 package com.example.jp.entregableandroidcore.view.fragment;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -20,6 +21,8 @@ public class RecetasFragment extends Fragment{
     private List<Receta> recetaList;
 
     private RecyclerView recyclerView;
+
+    private NotificadorFragment notificadorFragment;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -46,12 +49,29 @@ public class RecetasFragment extends Fragment{
             public void finish(List<Receta> resultado) {
                 recetaList = resultado;
 
-                RecetasAdapter adapter = new RecetasAdapter(recetaList);
+                RecetasAdapter adapter = new RecetasAdapter(recetaList, new RecetasAdapter.NotificadorAdapter() {
+                    @Override
+                    public void notificar(Receta receta) {
+                        notificadorFragment.notificar(receta);
+                    }
+                });
                 adapter.notifyDataSetChanged();
                 recyclerView.setAdapter(adapter);
             }
         });
 
 
+    }
+
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        notificadorFragment = (NotificadorFragment) context;
+
+    }
+
+    public interface NotificadorFragment{
+        public void notificar(Receta receta);
     }
 }

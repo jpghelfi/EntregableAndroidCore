@@ -15,8 +15,11 @@ public class RecetasAdapter extends RecyclerView.Adapter {
 
     private List<Receta> recetaList;
 
-    public RecetasAdapter(List<Receta> recetaList){
+    private NotificadorAdapter notificador;
+
+    public RecetasAdapter(List<Receta> recetaList, NotificadorAdapter notificador){
         this.recetaList = recetaList;
+        this.notificador = notificador;
     }
 
     @Override
@@ -46,10 +49,20 @@ public class RecetasAdapter extends RecyclerView.Adapter {
         public RecetaViewHolder(View itemView) {
             super(itemView);
             this.title = itemView.findViewById(R.id.nombreReceta);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    notificador.notificar(recetaList.get(getAdapterPosition()));
+                }
+            });
         }
 
         public void bindReceta(Receta receta){
             this.title.setText(receta.getTitle());
         }
+    }
+
+    public interface NotificadorAdapter{
+        public void notificar(Receta receta);
     }
 }

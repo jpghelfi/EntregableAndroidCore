@@ -1,6 +1,8 @@
 package com.example.jp.entregableandroidcore.dto;
 
-public class Receta {
+import java.io.Serializable;
+
+public class Receta implements Serializable {
 
     private String title;
 
